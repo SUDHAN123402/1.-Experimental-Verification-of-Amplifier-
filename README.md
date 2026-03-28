@@ -1,6 +1,6 @@
 #**EX.NO:** 1  # EXPERIMENTAL VERIFICATION OF AMPLIFIER INVERTING, NON INVERTING , DIFFERENTIAL AMPLIFIER AND INSTRUMENTATION AMPLIFIERS
-**DATE:**  
----
+
+
 
 ## AIM
 To design and construct an Inverting, Non-Inverting, Differential and Instrumentation amplifiers.
@@ -60,13 +60,11 @@ MODEL GRAPH
 
 
 DESIGN:
-
 Inverting amplifier:
+<img width="1600" height="1269" alt="image" src="https://github.com/user-attachments/assets/31eac381-fdc1-4a06-a078-5f73e9afb134" />
+<img width="1600" height="1464" alt="image" src="https://github.com/user-attachments/assets/2d8249b0-85c1-49f0-8af0-7a735e8dc86a" />
 
-A = -Rf/R1
-Take  A = 10
-Rf =10 R1
-Choose R1 = 1kΩ, Rf=10kΩ
+
 
 PROCEDURE:
 Inverting amplifier:
@@ -82,16 +80,12 @@ Inverting amplifier:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[-(Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |			
+<img width="1080" height="1457" alt="image" src="https://github.com/user-attachments/assets/3f0de6e4-503e-4c3a-9648-f583c2be9aa5" />
+
  
-
-
 ---
-## OUT PUT WAVEFORM AND DISCUSSION 
+## GRAPH
+
 
 
 ---
@@ -100,8 +94,9 @@ Inverting amplifier:
 If the signal is applied to the non-inverting input terminal without inversion, it is called a **non-inverting amplifier**.  
 Here, the output is fed back to the inverting terminal, and **no phase shift** occurs.
 
+## design
+<img width="1080" height="1541" alt="image" src="https://github.com/user-attachments/assets/16106310-d013-40bc-9bf7-4bcc66df409e" />
 
-ACL = 1 + RF/R1
 
 
 ---
@@ -130,14 +125,13 @@ PROCEDURE:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[1 + (Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+<img width="1497" height="1600" alt="image" src="https://github.com/user-attachments/assets/9fb7cfd7-0691-4ae8-ba06-c34777482506" />
+/>
 
 ---
-## OUT PUT WAVEFORM AND DISCUSSION 
+## GRAPH
+<img width="1080" height="1494" alt="image" src="https://github.com/user-attachments/assets/4d2a0ae3-e01e-4523-be7e-a8d1fb34eee1" />
+
 
 
 ---
@@ -158,16 +152,8 @@ A = Vo/{V2 - V1} = -Rf/R1
 ---
 
 ## DESIGN
-
-
-### **Differential Amplifier**
-
-AV = Vo/{V1 - V2} = -Rf/R1
-
-
-Take  A = 10 
-⇒  Rf = 10R1   
-Choose  R1 = 1kOhm, Rf = 10kOhm
+<img width="1600" height="1561" alt="image" src="https://github.com/user-attachments/assets/abba1bcd-a42d-4222-a6e8-f291448799f1" />
+<img width="1600" height="1305" alt="image" src="https://github.com/user-attachments/assets/500f3fdb-cd4e-4c13-abb8-52e23ef23105" />
 
 ---
 
@@ -185,15 +171,14 @@ Choose  R1 = 1kOhm, Rf = 10kOhm
 ---
 
 ## TABULATION (Differential Amplifier)
+<img width="873" height="1537" alt="image" src="https://github.com/user-attachments/assets/f72f5436-96e0-4691-96f9-ddbe214df2b5" />
 
-| S.No | V1 (V) | V2 (V) | Vo = (-Rf/R1)(V1 - V2) (V) | Theoretical | Practical |
-|------|---------|---------|-----------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+
+
 
 ---
-## OUT PUT WAVEFORM AND DISCUSSION 
+## GRAPH
+<img width="1080" height="1394" alt="image" src="https://github.com/user-attachments/assets/4f657829-3e60-442c-863d-ac71f8c015bd" />
 
 
 ---
@@ -224,15 +209,13 @@ PROCEDURE:
 ---
 
 ## TABULATION (Instrumentation Amplifier)
+<img width="706" height="1562" alt="image" src="https://github.com/user-attachments/assets/4facd44a-d937-48fc-9eec-ed1e97c6f45d" />
 
-| S.No | V1 (V) | V2 (V) | Vo = (Rf / R1) [1 + (2R’ / R)] (V2 – V1) (V) | Theoretical | Practical |
-|------|---------|---------|----------------------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+
 
 ---
-## OUT PUT WAVEFORM AND DISCUSSION 
+## GRAPH
+<img width="1080" height="1439" alt="image" src="https://github.com/user-attachments/assets/c48b6a9f-03e2-4ca5-af81-d49d5cfefc2c" />
 
 
 ---
